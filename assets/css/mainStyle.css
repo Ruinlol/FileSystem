@@ -38,20 +38,20 @@ table {
 body {
   font-family: Arial; }
 
-#login, #reg {
+#login, #reg, #uploads {
   width: 16%;
   margin: 10% auto;
   font-size: 2em;
   color: #00c9cc;
   background: white; }
-  #login input, #reg input {
+  #login input, #reg input, #uploads input {
     font-size: .7em;
     outline: none;
     border-radius: 10px; }
-  #login img, #reg img {
+  #login img, #reg img, #uploads img {
     position: relative;
     left: -164px; }
-  #login button, #reg button {
+  #login button, #reg button, #uploads button {
     display: block;
     font-family: Arial;
     width: 150px;
@@ -63,12 +63,12 @@ body {
     border-color: #00c9cc;
     color: #00c9cc;
     border-style: solid; }
-  #login form, #reg form {
+  #login form, #reg form, #uploads form {
     border: 1px solid;
     background: #e6ffff;
     border-radius: 3%;
     padding: 10px; }
-  #login .regBtn, #reg .regBtn {
+  #login .regBtn, #reg .regBtn, #uploads .regBtn {
     text-decoration: none;
     font-size: 0.7em;
     color: #00c9cc; }
@@ -92,9 +92,35 @@ body {
 #tree {
   width: 19.5%;
   margin-left: .5%; }
+  #tree #add {
+    background: none;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border-color: #00c9cc;
+    color: #00c9cc;
+    border-style: solid; }
 
 #content {
   width: 76%;
   margin-left: .5%; }
+
+#uploads {
+  background-color: #e6ffff;
+  border-color: #00c9cc;
+  border: 1px solid;
+  width: 500px;
+  height: 200px;
+  text-align: center; }
+  #uploads input button {
+    background: none;
+    border-radius: 10px;
+    border-color: #00c9cc;
+    color: #00c9cc;
+    border-style: solid; }
+  #uploads form {
+    background: transparent;
+    border: none; }
+  #uploads #close {
+    display: inline; }
 
 /*# sourceMappingURL=mainStyle.css.map */

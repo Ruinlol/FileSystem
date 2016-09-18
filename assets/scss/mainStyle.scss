@@ -5,7 +5,7 @@ body {
 	font-family: Arial;
 }
 
-#login, #reg {
+#login, #reg,#uploads {
 	width: 16%;
     margin: 10% auto;
     font-size: 2em;
@@ -67,8 +67,40 @@ body {
 #tree {
 	width: 19.5%;
 	margin-left: .5%;
+	#add {
+		background: none;
+	    font-size: 1.5em;
+	    border-radius: 10px;
+	    border-color: #00c9cc;
+	    color: #00c9cc;
+	    border-style: solid;
+	}	
 }
 #content {
 	    width: 76%;
    		 margin-left: .5%;
+}	
+#uploads {
+	background-color: $box-backgr;
+	border-color: $text-color;
+	border: 1px solid;
+	width: 500px;
+    height: 200px;
+    text-align: center;
+    input {
+	    button {
+	    	background: none;
+	    	border-radius: 10px;
+	    	border-color: #00c9cc;
+	    	color: #00c9cc;
+	    	border-style: solid;
+	    }
+	 }
+	 form {
+	 	background: transparent;
+  		border: none;
+	 }
+	 #close {
+	 	display: inline;
+	 }
 }

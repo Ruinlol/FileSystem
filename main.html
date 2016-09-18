@@ -1,16 +1,39 @@
 <!DOCTYPE html>
+<!-- FOLDERS: 
+<i class="fa fa-folder-open" aria-hidden="true"></i>
+<i class="fa fa-folder" aria-hidden="true"></i> -->
+
 <html>
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
 <link rel="stylesheet" href="assets/css/mainStyle.css" />
 <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
 </head>
 <body>
 	<div id="def-logo">
 		<img src="assets/img/project logo.png" alt="" />
+		
 	</div>
-	<div class = "mainLook" id = "tree">asd</div>
-	<div class="mainLook" id="content"> asd</div>
+	<div class = "mainLook" id = "tree">
+		
+	
+		<button id="add">+</button>
+	</div>
+	<div>
+	
+	</div>
+	<div class="mainLook" id="content" > asd</div>
+	
+	<div id="uploads" style="display: none">
+		<form action="" enctype="multipart/form-data" >
+			<input type="file" id="uploadField" name="file" required="required"/>
+			<div id='close'>X</div>
+			<button type="submit" id="upload">Upload</button>
+		</form>
+	</div>
+	
 </body>
 </html>
