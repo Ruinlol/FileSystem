@@ -34,6 +34,9 @@ $file_ext = explode('.', $file_name);
 $file_ext = end($file_ext);
 
 $file_new_name = uniqid(' ', true). '.' . $file_ext;
+
+trim($file_new_name);
+
 $file_destination = "../uploads/". $file_owner . '/' . $file_new_name;
 move_uploaded_file ($file_tmp, $file_destination);
 
@@ -46,5 +49,6 @@ $stmt->bindParam(':username', $file_owner);
 $stmt->bindParam(':filename', $file_name);
 $stmt->bindParam(':filepath', $file_destination);
 $stmt-> execute();
+echo json_encode('Done');
 
 
