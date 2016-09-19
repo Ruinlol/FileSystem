@@ -94,13 +94,17 @@ body {
   margin-left: .5%;
   background-size: 100%;
   min-height: 800px; }
-  #tree #add {
+  #tree i {
+    color: #006466; }
+  #tree #add, #tree #logout {
     background: none;
     font-size: 1.5em;
     border-radius: 10px;
     border-color: #00c9cc;
     color: #00c9cc;
     border-style: solid; }
+  #tree #logout {
+    float: right; }
   #tree ol {
     padding: 5px;
     font-size: 1.2em; }

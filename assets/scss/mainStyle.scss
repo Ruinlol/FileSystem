@@ -69,7 +69,10 @@ body {
 	margin-left: .5%;
 	background-size: 100%;
     min-height: 800px;
-	#add {
+    i {
+    	color: #006466;
+    }
+	#add, #logout {
 		background: none;
 	    font-size: 1.5em;
 	    border-radius: 10px;
@@ -77,6 +80,9 @@ body {
 	    color: #00c9cc;
 	    border-style: solid;
 	}	
+	#logout {
+		float: right;
+	}
 	ol {
 		padding: 5px;
     	font-size: 1.2em;
