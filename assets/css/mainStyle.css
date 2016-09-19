@@ -39,7 +39,7 @@ body {
   font-family: Arial; }
 
 #login, #reg, #uploads {
-  width: 16%;
+  width: 300px;
   margin: 10% auto;
   font-size: 2em;
   color: #00c9cc;
